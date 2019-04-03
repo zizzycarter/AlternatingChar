@@ -1,1 +1,1 @@
-# AlternatingChar
+# AlternatingCharacter
