@@ -1,0 +1,32 @@
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+# Complete the alternatingCharacters function below.
+def alternatingCharacters(s):
+
+    if __name__ == '__main__':
+        fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    q = int(input())
+
+    for q_itr in range(q):
+        #takes in the input
+        s = input()
+        #initializa variable to count the number of deletions required
+        count = 0
+        for i in range(len(s)-1):
+            #checks if the previous letter is the same as the first letter and counts if true
+            if (s[i]==s[i-1]):
+                count+=1
+        return count
+
+        result = alternatingCharacters(s)
+
+        fptr.write(str(result) + '\n')
+
+    fptr.close()
